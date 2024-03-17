@@ -1,0 +1,274 @@
+{
+    "doctors": [
+      {
+        "id": 1,
+        "name": "Dr. John Smith",
+        "specialty": "Cardiologist",
+        "hospital": "City General Hospital",
+        "address": "123 Main Street, Cityville, USA",
+        "phone": "+1 (555) 123-4567",
+        "email": "dr.johnsmith@example.com",
+        "image":"https://img.freepik.com/premium-photo/covid-coronavirus-outbreak-healthcare-workers-pandemic-concept-enthusiastic-smiling-doctor-physi_1258-69566.jpg?w=1380",
+        "available_days": ["Monday", "Wednesday", "Friday"],
+        "available_hours": "9:00 am - 5:00 pm",
+        "rating": 4.8,
+        "reviews": [
+          {
+            "patient_name": "Jane Doe",
+            "date": "September 15, 2023",
+            "rating": 5,
+            "comments": "Dr. Smith is very knowledgeable and caring. He explained my condition in detail and answered all my questions."
+          },
+          {
+            "patient_name": "John Johnson",
+            "date": "August 28, 2023",
+            "rating": 4.5,
+            "comments": "I had a great experience with Dr. Smith. He made me feel comfortable and provided excellent care."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Dr. Sarah Williams",
+        "specialty": "Pediatrician",
+        "hospital": "Children's Hospital",
+        "address": "456 Oak Avenue, Kidstown, USA",
+        "phone": "+1 (555) 987-6543",
+        "email": "dr.sarahwilliams@example.com",
+        "image":"https://img.freepik.com/free-photo/healthcare-workers-preventing-virus-quarantine-campaign-concept-smiling-asian-female-nurse-doctor-wi_1258-86271.jpg?w=1380&t=st=1710648034~exp=1710648634~hmac=1eb9bc2c92237cc32131130dfb40dc760a6d8a6c4b2e8d363b8503f628e0d04c",
+        "available_days": ["Tuesday", "Thursday", "Saturday"],
+        "available_hours": "10:00 am - 6:00 pm",
+        "rating": 4.9,
+        "reviews": [
+          {
+            "patient_name": "Emily Smith",
+            "date": "October 5, 2023",
+            "rating": 5,
+            "comments": "Dr. Williams is amazing with kids. She's patient, kind, and always puts my child at ease during appointments."
+          },
+          {
+            "patient_name": "Michael Brown",
+            "date": "September 22, 2023",
+            "rating": 4.8,
+            "comments": "I highly recommend Dr. Williams. She's a caring and knowledgeable pediatrician who genuinely cares about her young patients."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Dr. Lisa Chang",
+        "specialty": "Dermatologist",
+        "hospital": "SkinCare Clinic",
+        "address": "789 Elm Street, Skintown, USA",
+        "phone": "+1 (555) 234-5678",
+        "email": "dr.lisachang@example.com",
+        "image":"https://img.freepik.com/free-photo/healthcare-workers-preventing-virus-quarantine-campaign-concept-smiling-asian-female-nurse-doctor-wi_1258-86271.jpg?w=1380&t=st=1710648034~exp=1710648634~hmac=1eb9bc2c92237cc32131130dfb40dc760a6d8a6c4b2e8d363b8503f628e0d04c",
+        "available_days": ["Monday", "Wednesday", "Friday"],
+        "available_hours": "8:30 am - 4:30 pm",
+        "rating": 4.7,
+        "reviews": [
+          {
+            "patient_name": "Mark Johnson",
+            "date": "October 10, 2023",
+            "rating": 4.5,
+            "comments": "Dr. Chang is an expert in dermatology. She helped me with my skin condition, and I'm very satisfied with the results."
+          },
+          {
+            "patient_name": "Jennifer Lee",
+            "date": "September 18, 2023",
+            "rating": 4.8,
+            "comments": "I had a great experience with Dr. Chang. She's friendly and professional. I recommend her to anyone looking for a dermatologist."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Dr. Michael Davis",
+        "specialty": "Orthopedic Surgeon",
+        "hospital": "OrthoCare Hospital",
+        "address": "101 Pine Street, Jointville, USA",
+        "phone": "+1 (555) 345-6789",
+        "email": "dr.michaeldavis@example.com",
+        "image":"https://img.freepik.com/premium-photo/covid-coronavirus-outbreak-healthcare-workers-pandemic-concept-enthusiastic-smiling-doctor-physi_1258-69566.jpg?w=1380",
+        "available_days": ["Tuesday", "Thursday", "Saturday"],
+        "available_hours": "9:30 am - 5:30 pm",
+        "rating": 4.6,
+        "reviews": [
+          {
+            "patient_name": "Robert Smith",
+            "date": "October 8, 2023",
+            "rating": 4.5,
+            "comments": "Dr. Davis is an excellent orthopedic surgeon. He performed my knee surgery, and I'm grateful for his expertise."
+          },
+          {
+            "patient_name": "Laura Johnson",
+            "date": "September 20, 2023",
+            "rating": 4.7,
+            "comments": "I had a positive experience with Dr. Davis. He explained my treatment options clearly and helped me make informed decisions."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Dr. Emily Anderson",
+        "specialty": "Gynecologist",
+        "hospital": "Women's Wellness Center",
+        "address": "567 Maple Avenue, Maternityville, USA",
+        "phone": "+1 (555) 456-7890",
+        "email": "dr.emilyanderson@example.com",
+        "image":"https://img.freepik.com/free-photo/healthcare-workers-preventing-virus-quarantine-campaign-concept-smiling-asian-female-nurse-doctor-wi_1258-86271.jpg?w=1380&t=st=1710648034~exp=1710648634~hmac=1eb9bc2c92237cc32131130dfb40dc760a6d8a6c4b2e8d363b8503f628e0d04c",
+        "available_days": ["Monday", "Wednesday", "Friday"],
+        "available_hours": "8:00 am - 4:00 pm",
+        "rating": 4.9,
+        "reviews": [
+          {
+            "patient_name": "Lisa Brown",
+            "date": "October 12, 2023",
+            "rating": 5,
+            "comments": "Dr. Anderson is an excellent OB-GYN. She provides compassionate care and is highly knowledgeable in her field."
+          },
+          {
+            "patient_name": "David Wilson",
+            "date": "September 25, 2023",
+            "rating": 4.8,
+            "comments": "I trust Dr. Anderson with my healthcare needs. She's attentive, professional, and truly cares about her patients."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Dr. James Robinson",
+        "specialty": "Neurologist",
+        "hospital": "NeuroCare Center",
+        "address": "321 Oakwood Drive, Brainville, USA",
+        "phone": "+1 (555) 567-8901",
+        "email": "dr.jamesrobinson@example.com",
+        "image":"https://img.freepik.com/premium-photo/covid-coronavirus-outbreak-healthcare-workers-pandemic-concept-enthusiastic-smiling-doctor-physi_1258-69566.jpg?w=1380",
+        "available_days": ["Tuesday", "Thursday", "Saturday"],
+        "available_hours": "10:30 am - 6:30 pm",
+        "rating": 4.7,
+        "reviews": [
+          {
+            "patient_name": "Sarah Adams",
+            "date": "October 7, 2023",
+            "rating": 4.5,
+            "comments": "Dr. Robinson is a knowledgeable neurologist. He took the time to explain my condition and treatment options."
+          },
+          {
+            "patient_name": "Daniel Moore",
+            "date": "September 23, 2023",
+            "rating": 4.7,
+            "comments": "I'm satisfied with my experience at NeuroCare. Dr. Robinson and his team are professional and caring."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Dr. Maria Garcia",
+        "specialty": "Family Physician",
+        "hospital": "Family Care Clinic",
+        "address": "789 Cedar Lane, Familytown, USA",
+        "phone": "+1 (555) 678-9012",
+        "email": "dr.mariagarcia@example.com",
+        "image":"https://img.freepik.com/free-photo/healthcare-workers-preventing-virus-quarantine-campaign-concept-smiling-asian-female-nurse-doctor-wi_1258-86271.jpg?w=1380&t=st=1710648034~exp=1710648634~hmac=1eb9bc2c92237cc32131130dfb40dc760a6d8a6c4b2e8d363b8503f628e0d04c",
+        "available_days": ["Monday", "Wednesday", "Friday"],
+        "available_hours": "9:00 am - 5:00 pm",
+        "rating": 4.8,
+        "reviews": [
+          {
+            "patient_name": "Carlos Hernandez",
+            "date": "October 9, 2023",
+            "rating": 5,
+            "comments": "Dr. Garcia is a caring family physician. She always listens to my concerns and provides great medical advice."
+          },
+          {
+            "patient_name": "Linda Martinez",
+            "date": "September 21, 2023",
+            "rating": 4.6,
+            "comments": "I've been a patient of Dr. Garcia for years. She's a dedicated and compassionate doctor who I trust completely."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Dr. Robert Taylor",
+        "specialty": "Ophthalmologist",
+        "hospital": "EyeCare Center",
+        "address": "456 Vision Street, Eyetown, USA",
+        "phone": "+1 (555) 789-0123",
+        "email": "dr.roberttaylor@example.com",
+        "image":"https://img.freepik.com/premium-photo/covid-coronavirus-outbreak-healthcare-workers-pandemic-concept-enthusiastic-smiling-doctor-physi_1258-69566.jpg?w=1380",
+        "available_days": ["Tuesday", "Thursday", "Saturday"],
+        "available_hours": "8:30 am - 4:30 pm",
+        "rating": 4.7,
+        "reviews": [
+          {
+            "patient_name": "Karen Wilson",
+            "date": "October 11, 2023",
+            "rating": 4.5,
+            "comments": "Dr. Taylor is a skilled ophthalmologist. He performed my eye surgery with precision, and I'm very satisfied."
+          },
+          {
+            "patient_name": "William Davis",
+            "date": "September 24, 2023",
+            "rating": 4.7,
+            "comments": "I trust Dr. Taylor with my eye care. He's professional and takes the time to explain procedures and options."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Dr. Susan Miller",
+        "specialty": "Psychiatrist",
+        "hospital": "Mental Health Center",
+        "address": "101 Mind Avenue, Psychville, USA",
+        "phone": "+1 (555) 890-1234",
+        "email": "dr.susanmiller@example.com",
+        "image":"https://img.freepik.com/free-photo/healthcare-workers-preventing-virus-quarantine-campaign-concept-smiling-asian-female-nurse-doctor-wi_1258-86271.jpg?w=1380&t=st=1710648034~exp=1710648634~hmac=1eb9bc2c92237cc32131130dfb40dc760a6d8a6c4b2e8d363b8503f628e0d04c",
+        "available_days": ["Monday", "Wednesday", "Friday"],
+        "available_hours": "10:00 am - 6:00 pm",
+        "rating": 4.9,
+        "reviews": [
+          {
+            "patient_name": "Jennifer Adams",
+            "date": "October 6, 2023",
+            "rating": 5,
+            "comments": "Dr. Miller is a compassionate psychiatrist. She's helped me manage my mental health effectively."
+          },
+          {
+            "patient_name": "Michael Brown",
+            "date": "September 19, 2023",
+            "rating": 4.8,
+            "comments": "I'm grateful for Dr. Miller's support. She's a great listener and provides valuable insights."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Dr. Laura Wilson",
+        "specialty": "Dentist",
+        "hospital": "Smile Dental Clinic",
+        "address": "567 Tooth Lane, Dentaltown, USA",
+        "phone": "+1 (555) 123-4567",
+        "email": "dr.laurawilson@example.com",
+        "image":"https://img.freepik.com/free-photo/healthcare-workers-preventing-virus-quarantine-campaign-concept-smiling-asian-female-nurse-doctor-wi_1258-86271.jpg?w=1380&t=st=1710648034~exp=1710648634~hmac=1eb9bc2c92237cc32131130dfb40dc760a6d8a6c4b2e8d363b8503f628e0d04c",
+        "available_days": ["Tuesday", "Thursday", "Saturday"],
+        "available_hours": "9:00 am - 5:00 pm",
+        "rating": 4.6,
+        "reviews": [
+          {
+            "patient_name": "John Smith",
+            "date": "October 14, 2023",
+            "rating": 4.5,
+            "comments": "Dr. Wilson is an excellent dentist. She's gentle, and my dental visits are always comfortable."
+          },
+          {
+            "patient_name": "Emily Davis",
+            "date": "September 26, 2023",
+            "rating": 4.7,
+            "comments": "I'm happy with the care I receive at Smile Dental Clinic. Dr. Wilson and her staff are friendly and skilled."
+          }
+        ]
+      }
+    ]
+  }
